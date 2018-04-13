@@ -1,0 +1,32 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<div class="jumbotron" style="text-align:center">
+    <h1>DragonFire Entertainment</h1>
+    <p class="lead">The #1 entertainment source for video games, movies, and music!</p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        @*<h2>Getting started</h2>*@
+        <img class="homePageButtons" src="~/Content/Images/Games.png" />
+        @*<p>
+            The latest reviews for the newest video games.
+        </p>*@
+        <p><a class="btn btn-info" href="~/Games" id="centeredBtn">GAMES</a></p>
+    </div>
+    <div class="col-md-4">
+        @*<h2>Get more libraries</h2>*@
+        <img class="homePageButtons" src="~/Content/Images/Movies.png" />
+        @*<p>In-depth reviews for the latest in cinema.</p>*@
+        <p><a class="btn btn-info" href="~/Movies" id="centeredBtn">MOVIES</a></p>
+    </div>
+    <div class="col-md-4">
+        @*<h2>Web Hosting</h2>*@
+        <img class="homePageButtons" src="~/Content/Images/Music.png" />
+        @*<p>Recommendations for the best in music.</p>*@
+        <p><a class="btn btn-info" href="~/Music" id="centeredBtn">MUSIC</a></p>
+    </div>
+</div>
